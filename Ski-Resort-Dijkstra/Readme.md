@@ -35,6 +35,7 @@ g++ wyciagami_i_gorami.cpp -o narty
 ```
 2. Mapa z wyciągami (Logika oczekiwania)
 Tutaj kluczowe jest wybranie wyciągu, na który trzeba dłużej poczekać, ale jedzie szybciej lub startuje bliżej.
+```bash
 echo "9 9 0 0 8 8 5
 0 1 2 0 5 2
 0 1 2 0 1 3
@@ -50,7 +51,7 @@ echo "9 9 0 0 8 8 5
 0 9 0 9 0 9 0 9 0
 0 9 0 9 0 9 0 9 0
 0 9 0 9 0 9 0 9 0" | ./narty
-
+```
 Oczekiwany wynik: 22
 
 Autor: Dominik Szwed Student Informatyki, Politechnika Gdańska
